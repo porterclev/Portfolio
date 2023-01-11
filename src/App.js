@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import About from "./views/About/About";
 import Skills from "./views/Skills/Skills";
 import Projects from "./views/Projects/Projects";
-import Header from "./views/Header/Header";
-import SideBar from "./views/SideBar/SideBar";
+import Header from "./components/Header/Header";
+import SideBar from "./components/SideBar/SideBar";
 
 function App() {
   return (

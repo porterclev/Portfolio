@@ -1,0 +1,7 @@
+.banner {
+    display: flex;
+    width: 10%;
+    height: 15rem;
+    justify-content: left;
+    
+}
