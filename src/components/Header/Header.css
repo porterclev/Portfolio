@@ -1,6 +1,12 @@
+
 .banner {
     display: flex;
     align-items: flex-start;
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: clamp();
 }
 
 .image {
@@ -9,7 +15,12 @@
 }
 
 .profile{
-    width: 300px;
+    width: 20%;
+    height: 12rem;
+}
+
+.header {
+    width: 80%;
 }
 
 .profile-image {
