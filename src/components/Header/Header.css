@@ -1,7 +1,18 @@
 .banner {
     display: flex;
-    width: 10%;
-    height: 15rem;
-    justify-content: left;
-    
+    align-items: flex-start;
+}
+
+.image {
+    width: 100%;
+    height: 12rem;
+}
+
+.profile{
+    width: 300px;
+}
+
+.profile-image {
+    border-radius: 20px;
+    width: 50%;
 }

@@ -1,9 +1,11 @@
+import "./About.css";
 const About = () => {
   return (
-    <div>
-        <h1></h1>
-    </div>
-  )
-}
+    <section className="container">
+      <h1>About Me</h1>
+      <p>Bruh</p>
+    </section>
+  );
+};
 
-export default About
+export default About;
