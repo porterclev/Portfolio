@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Projects = () => {
+const Header = () => {
   return (
     <div></div>
   )
 }
 
-export default Projects
+export default Header
