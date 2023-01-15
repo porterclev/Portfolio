@@ -3,9 +3,12 @@ import "./ProjectTable";
 
 const Project = ({ project, onToggle }) => {
   return (
+    /* Defining Variables initialized in PorjectTable */
     <div className="project" onClick={() => onToggle(project.id)}>
-      {/* Defining Variables initialized in PorjectTable */}
+      {/* Main Project Box */}
       <div className="project-box">
+        {/* Project Icon */}
+        <img src={project.Icon} />
         {/* Header of Project */}
         <h4>{project.Prod}</h4>
       </div>

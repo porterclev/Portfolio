@@ -1,15 +1,16 @@
 import "./ProjectTable.css";
 import Projects from "./Projects";
 import { useState } from "react";
+import Bot from "./assets/discord-bot-icon.jpg";
 
 const ProjectTable = () => {
   //Defined Project Table
   const [projects, setProjects] = useState([
     {
       //Project Icon
+      Icon: Bot,
       //Project Title
-      Prod: "Question",
-
+      Prod: "Discord Bot",
       //Project Description
       P: (
         <>
@@ -17,10 +18,8 @@ const ProjectTable = () => {
           <br />
         </>
       ),
-
       //Project id
       id: 1,
-
       //Expand bool
       expand: false,
     },
