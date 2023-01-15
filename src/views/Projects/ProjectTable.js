@@ -2,6 +2,8 @@ import "./ProjectTable.css";
 import Projects from "./Projects";
 import { useState } from "react";
 import Bot from "./assets/discord-bot-icon.jpg";
+import DnD from "./assets/DnD-icon.png";
+import Calc from "./assets/Calc-Book-icon.png";
 
 const ProjectTable = () => {
   //Defined Project Table
@@ -22,6 +24,44 @@ const ProjectTable = () => {
       //Project id
       id: 1,
       //Expand bool
+      expand: false,
+    },
+
+    {
+      Icon: DnD,
+      Prod: "Dungeons and Dragons RPG Game",
+      ShortD: (
+        <>
+          Short
+          <br />
+        </>
+      ),
+      LongD: (
+        <>
+          Long
+          <br />
+        </>
+      ),
+      id: 1,
+      expand: false,
+    },
+
+    {
+      Icon: Calc,
+      Prod: "Calculator/Bookstore",
+      ShortD: (
+        <>
+          Short
+          <br />
+        </>
+      ),
+      LongD: (
+        <>
+          Long
+          <br />
+        </>
+      ),
+      id: 1,
       expand: false,
     },
   ]);
