@@ -12,12 +12,13 @@ const ProjectTable = () => {
       //Project Title
       Prod: "Discord Bot",
       //Project Description
-      P: (
+      ShortD: (
         <>
-          Answers
+          Short
           <br />
         </>
       ),
+      LongD: <>Long</>,
       //Project id
       id: 1,
       //Expand bool

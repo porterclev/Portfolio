@@ -5,13 +5,30 @@
 }
 
 .project-table {
-
+    display: grid;
 }
 
 .project {
-
+    display: flex;
 }
 
 .project-box {
-    
+    display: grid;
+    grid-template-rows: 30px;
+    width: 500px;
+    justify-content: start;
+    align-items: center;
+}
+
+.project-icon {
+    width: 150px;
+    height: 85.7px;
+    margin: 10px;
+}
+
+.project h4 {
+    margin: 10px 0px 0px 0px;
+}
+.project p{
+    margin: 0px 0px 0px 0px;
 }
