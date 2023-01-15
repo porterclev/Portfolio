@@ -2,11 +2,12 @@
 .banner {
     display: flex;
     align-items: flex-start;
+    
     background-image: url("./assets/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: clamp();
+    /* height: clamp(); */
 }
 
 .image {
@@ -17,6 +18,7 @@
 .profile{
     width: 20%;
     height: 12rem;
+    background-color: rgb(96, 201, 236);
 }
 
 .header {
@@ -26,4 +28,8 @@
 .profile-image {
     border-radius: 20px;
     width: 50%;
+}
+
+.profile p {
+    overflow-wrap: normal;
 }
