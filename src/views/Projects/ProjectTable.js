@@ -27,7 +27,7 @@ const ProjectTable = () => {
   ]);
 
   /* 
-    iterates through states and returns them with styling
+    maps each project defined to Projects grouping
   */
   const toggleProject = (id) => {
     setProjects(
