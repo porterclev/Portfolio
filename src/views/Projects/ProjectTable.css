@@ -9,14 +9,14 @@
 }
 
 .project {
-    display: flex;
+    display:flex;
 }
 
 .project-box {
     display: grid;
     grid-template-rows: 30px;
     width: 500px;
-    justify-content: start;
+    justify-items: start;
     align-items: center;
 }
 

@@ -42,7 +42,7 @@ const ProjectTable = () => {
           <br />
         </>
       ),
-      id: 1,
+      id: 2,
       expand: false,
     },
 
@@ -61,7 +61,7 @@ const ProjectTable = () => {
           <br />
         </>
       ),
-      id: 1,
+      id: 3,
       expand: false,
     },
   ]);
