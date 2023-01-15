@@ -1,11 +1,11 @@
-import React from "react";
+import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div className="container">
+    <section className="skills-container">
       <h1>Skills</h1>
       <p></p>
-    </div>
+    </section>
   );
 };
 

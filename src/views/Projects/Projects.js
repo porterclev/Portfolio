@@ -1,11 +1,11 @@
-import React from "react";
+import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="container">
+    <section className="projects-container">
       <h1>Projects</h1>
       <p></p>
-    </div>
+    </section>
   );
 };
 

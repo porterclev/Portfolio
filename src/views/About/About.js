@@ -1,7 +1,7 @@
 import "./About.css";
 const About = () => {
   return (
-    <section className="container">
+    <section className="about-container">
       <h1>About Me</h1>
       <p>
         I'm a current student at California State University of Long Beach
