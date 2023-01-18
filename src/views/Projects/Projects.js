@@ -1,12 +1,15 @@
-import "./Projects.css";
+import React from "react";
+import Project from "./Project";
 
-const Projects = () => {
+const Projectlist = ({ projects, onToggle }) => {
   return (
-    <section className="projects-container">
-      <h1>Projects</h1>
-      <p></p>
-    </section>
+    <>
+      {/* places given projects into an array */}
+      {projects.map((project) => (
+        <Project key={project.id} project={project} onToggle={onToggle} />
+      ))}
+    </>
   );
 };
 
-export default Projects;
+export default Projectlist;
