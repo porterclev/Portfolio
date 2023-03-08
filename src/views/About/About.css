@@ -2,5 +2,16 @@
     display: grid;
     justify-items: left;
     
+    
+}
+
+.about-container p{
+    font-size: 25px;
+    text-align: left;
+}
+
+.about-container h1{
+    font-size: 40px;
+    text-align: left;
 }
 
