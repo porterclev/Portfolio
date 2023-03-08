@@ -7,7 +7,7 @@ import Calc from "./assets/Calc-Book-icon.png";
 
 const ProjectTable = () => {
   //Defined Project Table
-  const [projects, setProjects] = useState([
+  const [personalProjects, setPersonalProjects] = useState([
     {
       //Project Icon
       Icon: Bot,
@@ -26,7 +26,9 @@ const ProjectTable = () => {
       //Expand bool
       expand: false,
     },
+  ]);
 
+  const [collegeProjects, setCollegeProjects] = useState([
     {
       Icon: DnD,
       Prod: "Dungeons and Dragons RPG Game",
@@ -45,7 +47,6 @@ const ProjectTable = () => {
       id: 2,
       expand: false,
     },
-
     {
       Icon: Calc,
       Prod: "Calculator/Bookstore",
@@ -66,12 +67,27 @@ const ProjectTable = () => {
     },
   ]);
 
+  const [competitionProjects, setCompetitionProjects] = useState([]);
   /* 
     maps each project defined to Projects grouping
   */
-  const toggleProject = (id) => {
-    setProjects(
-      projects.map((project) =>
+  const togglePersonalProject = (id) => {
+    setPersonalProjects(
+      personalProjects.map((project) =>
+        project.id === id ? { ...project, expand: !project.expand } : project
+      )
+    );
+  };
+  const toggleCollegeProject = (id) => {
+    setPersonalProjects(
+      personalProjects.map((project) =>
+        project.id === id ? { ...project, expand: !project.expand } : project
+      )
+    );
+  };
+  const toggleCompetitionProject = (id) => {
+    setPersonalProjects(
+      personalProjects.map((project) =>
         project.id === id ? { ...project, expand: !project.expand } : project
       )
     );
@@ -80,12 +96,39 @@ const ProjectTable = () => {
   return (
     <section className="projects-container">
       {/* Header */}
-      <h1>Projects</h1>
+      <h1>Personal Projects</h1>
 
       {/* Table */}
       <div className="project-table">
-        {projects.length > 0 ? (
-          <Projects projects={projects} onToggle={toggleProject} />
+        {personalProjects.length > 0 ? (
+          <Projects
+            projects={personalProjects}
+            onToggle={togglePersonalProject}
+          />
+        ) : (
+          "None"
+        )}
+      </div>
+
+      <h1>College Course Projects</h1>
+      <div className="project-table">
+        {collegeProjects.length > 0 ? (
+          <Projects
+            projects={collegeProjects}
+            onToggle={toggleCollegeProject}
+          />
+        ) : (
+          "None"
+        )}
+      </div>
+
+      <h1>Competition Projects</h1>
+      <div className="project-table">
+        {competitionProjects.length > 0 ? (
+          <Projects
+            projects={competitionProjects}
+            onToggle={toggleCompetitionProject}
+          />
         ) : (
           "None"
         )}
