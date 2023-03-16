@@ -12,8 +12,10 @@ function App() {
       <Header />
       <SideBar />
       <About />
-      <Skills />
-      <ProjectTable />
+      <div className="app-content">
+        <Skills />
+        <ProjectTable />
+      </div>
     </div>
   );
 }
