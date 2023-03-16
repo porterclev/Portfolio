@@ -8,3 +8,8 @@
     border-bottom-color: black;
     
 }
+.language-buttons {
+    display: flex;
+    flex-direction: row;
+    
+}
