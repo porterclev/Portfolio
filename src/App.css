@@ -39,5 +39,5 @@
 
 .app-content{
   display: grid;
-  justify-content: center;
+  margin: 5rem 0px 0px 13rem;
 }

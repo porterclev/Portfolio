@@ -1,11 +1,17 @@
 .skills-container {
     display: grid;
     justify-items: left;
+    justify-content: left;
+    font-size: 30px;
 }
 
 .skills-container h1 {
-    border: 0px 10px 0px 0px;
+    display: flex;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
     border-bottom-color: black;
+    width: 100%;
+    margin-bottom: 0px;
     
 }
 .language-buttons {
