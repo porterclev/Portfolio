@@ -16,7 +16,8 @@ const ProjectTable = () => {
       //Project Description
       ShortD: (
         <>
-          Short
+          This ongoing passion project is a discord bot with over 80+ active
+          users.
           <br />
         </>
       ),
@@ -25,6 +26,7 @@ const ProjectTable = () => {
       id: 1,
       //Expand bool
       expand: false,
+      git: "https://github.com/porterclev/Discord-Bot",
     },
   ]);
 

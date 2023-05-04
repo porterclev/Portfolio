@@ -18,6 +18,19 @@
     width: 500px;
     justify-items: start;
     align-items: center;
+    text-align: left;
+}
+
+.header-box{
+    display:grid;
+    grid-template-columns: 1fr 0.5fr;
+    width: inherit;
+}
+
+.header-box button{
+    width: 100px;
+    justify-self: right;
+    
 }
 
 .project-icon {

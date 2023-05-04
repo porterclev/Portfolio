@@ -1,16 +1,35 @@
 import React from "react";
 import "./ProjectTable";
+import { Button } from "@mui/material";
 
 const Project = ({ project, onToggle }) => {
   return (
     /* Defining Variables initialized in PorjectTable */
-    <div className="project" onClick={() => onToggle(project.id)}>
+    <div className="project">
       {/* Project Icon */}
-      <img src={project.Icon} className="project-icon" />
+      <img
+        src={project.Icon}
+        className="project-icon"
+        onClick={() => onToggle(project.id)}
+      />
       {/* Main Project Box */}
       <div className="project-box">
-        {/* Header of Project */}
-        <h4>{project.Prod}</h4>
+        <div className="header-box">
+          {/* Header of Project */}
+          <h4>{project.Prod}</h4>
+
+          <Button
+            variant="outlined"
+            color="secondary"
+            className="buttom"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = project.git;
+            }}
+          >
+            GitHub
+          </Button>
+        </div>
 
         {/* short description */}
         <p>{project.ShortD}</p>
