@@ -13,15 +13,15 @@ const Skills = () => {
 
   return (
     <section className="skills-container">
-      <h1>Skills</h1>
-      <h2>Language Proficiency</h2>
+      {/* <h1>Skills</h1> */}
+      {/* <h2>Language Filter</h2> */}
       <div className="language-buttons">
         {langs.length > 0 ? <Langs langs={langs} onClick={() => {}} /> : "None"}
       </div>
-
+      {/* 
       <h2>Frequently Used Tech</h2>
       <p>Insert another map</p>
-      <p></p>
+      <p></p> */}
     </section>
   );
 };

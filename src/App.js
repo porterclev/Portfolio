@@ -13,7 +13,7 @@ function App() {
       <SideBar />
       <div className="app-content">
         <About />
-        <Skills />
+        {/* <Skills /> */}
         <ProjectTable />
       </div>
     </div>
