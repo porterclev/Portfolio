@@ -2,23 +2,25 @@
     display: flex;
     flex-direction: row;
     justify-items: left;
+    justify-content: center;
 }
 
 .about-text-box {
-    margin-left: 20px;
+    margin-left: 12px;
+    width: 30%;
 }
 .about-container p{
-    font-size: 25px;
+    font-size: 18px;
     text-align: left;
 }
 
 .about-container h1{
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
 }
 
 .profile-image {
-    border-radius: 20px;
-    width: 20%;
+    border-radius: 100px;
+    width: 10%;
 }
 
