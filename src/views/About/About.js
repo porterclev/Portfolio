@@ -1,5 +1,8 @@
 import "./About.css";
 import Profile from "../../assets/profile.jpg";
+import { IconButton } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const About = () => {
   return (
@@ -12,6 +15,25 @@ const About = () => {
           I'm a current student at California State University of Long Beach
           working towards my bachalors in Computer Science.
         </p>
+        <div className="social-buttons">
+          <IconButton
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://github.com/porterclev";
+            }}
+          >
+            <GitHubIcon />
+          </IconButton>
+          <IconButton
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://www.linkedin.com/in/porter-clevidence-554927220/";
+            }}
+          >
+            <LinkedInIcon color="primary" />
+          </IconButton>
+        </div>
       </div>
     </section>
   );

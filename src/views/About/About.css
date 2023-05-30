@@ -7,7 +7,10 @@
     border-radius: 30px;
     
 }
-
+.social-buttons {
+    display: flex;
+    justify-content: left;
+}
 .about-text-box {
     margin: 0px 0px 0px 0px;
 }
