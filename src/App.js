@@ -11,9 +11,11 @@ function App() {
     <div className="App">
       <Header />
       <SideBar />
-      <About />
-      <Skills />
-      <ProjectTable />
+      <div className="app-content">
+        <About />
+        {/* <Skills /> */}
+        <ProjectTable />
+      </div>
     </div>
   );
 }

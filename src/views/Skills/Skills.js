@@ -1,15 +1,27 @@
 import "./Skills.css";
-
+import { Button, ButtonGroup } from "@mui/material";
+import Langs from "./Langs";
+import { useState } from "react";
 const Skills = () => {
+  const [langs, useLang] = useState([
+    { id: 2, name: "Java", proficiency: "high" },
+    { id: 3, name: "Javascript", proficiency: "high" },
+    { id: 1, name: "Python", proficiency: "intermediate" },
+    { id: 4, name: "PHP", proficiency: "low" },
+    { id: 5, name: "C++", proficiency: "low" },
+  ]);
+
   return (
     <section className="skills-container">
-      <h1>Skills</h1>
-
-      <h2>Frameworks</h2>
-      <p>React, Node.js, ...</p>
-      <h2>Languages</h2>
-      <p>Python, Java, Javascript</p>
-      <p></p>
+      {/* <h1>Skills</h1> */}
+      {/* <h2>Language Filter</h2> */}
+      <div className="language-buttons">
+        {langs.length > 0 ? <Langs langs={langs} onClick={() => {}} /> : "None"}
+      </div>
+      {/* 
+      <h2>Frequently Used Tech</h2>
+      <p>Insert another map</p>
+      <p></p> */}
     </section>
   );
 };

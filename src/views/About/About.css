@@ -1,17 +1,32 @@
 .about-container {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     justify-items: left;
-    
+    justify-content: left;
+    background-color: #ffffff;
+    border-radius: 30px;
     
 }
-
+.social-buttons {
+    display: flex;
+    justify-content: left;
+}
+.about-text-box {
+    margin: 0px 0px 0px 0px;
+}
 .about-container p{
-    font-size: 25px;
+    font-size: 18px;
     text-align: left;
 }
 
 .about-container h1{
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
+}
+
+.profile-image {
+    margin: 20px 20px 20px 20px;
+    border-radius: 100px;
+    width: 23%;
 }
 
