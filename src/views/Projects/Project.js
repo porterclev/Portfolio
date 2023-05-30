@@ -20,7 +20,7 @@ const Project = ({ project, onToggle }) => {
 
           <Button
             variant="outlined"
-            color="secondary"
+            color="primary"
             className="buttom"
             onClick={(e) => {
               e.preventDefault();
