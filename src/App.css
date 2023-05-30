@@ -39,5 +39,7 @@
 
 .app-content{
   display: grid;
-  margin: 5rem 0px 0px 13rem;
+  margin: 0px 0px 0px 0px;
+  padding: 5rem 20rem 5rem 20rem;
+  background-color: #cee3ff;
 }
