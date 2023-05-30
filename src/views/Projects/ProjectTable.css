@@ -1,6 +1,7 @@
 .projects-container {
     display: grid;
     justify-items: left;
+    justify-content: center;
     
 }
 

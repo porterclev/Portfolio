@@ -28,6 +28,20 @@ const ProjectTable = () => {
       expand: false,
       git: "https://github.com/porterclev/Discord-Bot",
     },
+    {
+      Icon: Bot,
+      Prod: "Discord Game",
+      ShortD: (
+        <>
+          Multiplayer Isometric Game that connects users from discord into a
+          shared world with loot, combat, and PVE gameplay.
+        </>
+      ),
+      LongD: <>Long</>,
+      id: 2,
+      expand: false,
+      git: "https://github.com/porterclev/Discord-Bot-Webpage",
+    },
   ]);
 
   const [collegeProjects, setCollegeProjects] = useState([
@@ -36,7 +50,7 @@ const ProjectTable = () => {
       Prod: "Dungeons and Dragons RPG Game",
       ShortD: (
         <>
-          Short
+          A java based RPG dungeon crawler played in the terminal.
           <br />
         </>
       ),
@@ -46,8 +60,9 @@ const ProjectTable = () => {
           <br />
         </>
       ),
-      id: 2,
+      id: 5,
       expand: false,
+      git: "https://github.com/porterclev/DnDGame",
     },
     {
       Icon: Calc,
@@ -64,7 +79,7 @@ const ProjectTable = () => {
           <br />
         </>
       ),
-      id: 3,
+      id: 6,
       expand: false,
     },
   ]);
