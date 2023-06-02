@@ -6,6 +6,7 @@
     border-radius: 30px;
     margin: 3rem 0rem 0rem 0rem;
     padding: 0rem 0rem 1rem 0rem;
+
 }
 
 .project-table {
@@ -27,7 +28,7 @@
 
 .header-box{
     display:grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
     width: inherit;
 }
 
@@ -45,6 +46,7 @@
 
 .project h4 {
     margin: 10px 0px 0px 0px;
+    font-size: 15px;
 }
 .project p{
     margin: 0px 0px 0px 0px;

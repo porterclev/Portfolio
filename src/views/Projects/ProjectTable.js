@@ -131,6 +131,7 @@ const ProjectTable = () => {
   return (
     <section className="projects-container">
       {/* Header */}
+
       <h1>Personal Projects</h1>
 
       {/* Table */}

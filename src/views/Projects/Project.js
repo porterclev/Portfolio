@@ -17,7 +17,17 @@ const Project = ({ project, onToggle }) => {
         <div className="header-box">
           {/* Header of Project */}
           <h4>{project.Prod}</h4>
-
+          <Button
+            variant="outlined"
+            color="success"
+            className="buttom"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = project.demo;
+            }}
+          >
+            Demo
+          </Button>
           <Button
             variant="outlined"
             color="primary"
