@@ -18,7 +18,8 @@ const ProjectTable = () => {
       ShortD: (
         <>
           This ongoing passion project is a discord bot with over 80+ active
-          users.
+          users. Using Discord's API, the bot interacts with the users in the
+          form of commands or basic conversation.
           <br />
         </>
       ),
