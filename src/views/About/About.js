@@ -13,7 +13,9 @@ const About = () => {
         <h1>About Me</h1>
         <p>
           I'm a current student at California State University of Long Beach
-          working towards my bachalors in Computer Science.
+          working towards my bachalors in Computer Science. I have a passion for
+          learning new skills and technologies. I've worked on many open source
+          projects and have started a few of my own.
         </p>
         <div className="social-buttons">
           <IconButton
