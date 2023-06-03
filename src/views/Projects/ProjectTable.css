@@ -1,6 +1,6 @@
 .projects-container {
     display: grid;
-    justify-items: left;
+    justify-items: center;
     justify-content: center;
     background-color: #ffffff;
     border-radius: 30px;
@@ -16,6 +16,7 @@
 .project {
     display:flex;
     margin: 0px 0px 1.5rem 0px;
+    align-items: flex-start;
 }
 
 .project-box {
@@ -40,8 +41,8 @@
 }
 
 .project-icon {
-    width: 200px;
-    /* height: 85.7px; */
+    width: 262px;
+    height: 150px;
     margin: 10px;
 }
 
