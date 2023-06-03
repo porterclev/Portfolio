@@ -7,17 +7,23 @@ const Project = ({ project, onToggle }) => {
     /* Defining Variables initialized in PorjectTable */
     <div className="project">
       {/* Project Icon */}
-      <img
-        src={project.Icon}
-        className="project-icon"
-        onClick={() => onToggle(project.id)}
-      />
+      <img src={project.Icon} className="project-icon" />
       {/* Main Project Box */}
       <div className="project-box">
         <div className="header-box">
           {/* Header of Project */}
           <h4>{project.Prod}</h4>
-
+          <Button
+            variant="outlined"
+            color="success"
+            className="buttom"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = project.demo;
+            }}
+          >
+            Demo
+          </Button>
           <Button
             variant="outlined"
             color="primary"
@@ -34,8 +40,14 @@ const Project = ({ project, onToggle }) => {
         {/* short description */}
         <p>{project.ShortD}</p>
 
-        {/* shows long description on click */}
-        {project.expand ? <p>{project.LongD}</p> : ""}
+        {project.expand === false ? (
+          <Button onClick={() => onToggle(project.id)}>show more...</Button>
+        ) : (
+          <div>
+            <p>{project.LongD}</p>
+            <Button onClick={() => onToggle(project.id)}>show less...</Button>
+          </div>
+        )}
       </div>
     </div>
   );
