@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f54b55f.css",
-    "main.js": "/static/js/main.ead14c65.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/beachhack.png": "/static/media/beachhack.83ed26ed4e50c0cdb15d.png",
-    "static/media/3xplus1.jpg": "/static/media/3xplus1.b1acfd176ed75da48f9e.jpg",
-    "static/media/DnD.jpg": "/static/media/DnD.4c0ca0159277a386a477.jpg",
-    "static/media/Hack1.png": "/static/media/Hack1.31229141822a25a616e1.png",
-    "static/media/profile.jpg": "/static/media/profile.a678170dffdbe478adb4.jpg",
-    "static/media/banner.jpg": "/static/media/banner.74e1acd7bbb435b1a37f.jpg",
-    "static/media/discord-bot-icon.jpg": "/static/media/discord-bot-icon.31dd252245ff52f4e6e0.jpg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.3f54b55f.css.map": "/static/css/main.3f54b55f.css.map",
-    "main.ead14c65.js.map": "/static/js/main.ead14c65.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.6e79e4db.css",
+    "main.js": "/Portfolio/static/js/main.5587b4e7.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/beachhack.png": "/Portfolio/static/media/beachhack.83ed26ed4e50c0cdb15d.png",
+    "static/media/3xplus1.jpg": "/Portfolio/static/media/3xplus1.b1acfd176ed75da48f9e.jpg",
+    "static/media/DnD.jpg": "/Portfolio/static/media/DnD.4c0ca0159277a386a477.jpg",
+    "static/media/Hack1.png": "/Portfolio/static/media/Hack1.31229141822a25a616e1.png",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.a678170dffdbe478adb4.jpg",
+    "static/media/banner.jpg": "/Portfolio/static/media/banner.74e1acd7bbb435b1a37f.jpg",
+    "static/media/discord-bot-icon.jpg": "/Portfolio/static/media/discord-bot-icon.31dd252245ff52f4e6e0.jpg",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.6e79e4db.css.map": "/Portfolio/static/css/main.6e79e4db.css.map",
+    "main.5587b4e7.js.map": "/Portfolio/static/js/main.5587b4e7.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f54b55f.css",
-    "static/js/main.ead14c65.js"
+    "static/css/main.6e79e4db.css",
+    "static/js/main.5587b4e7.js"
   ]
 }
