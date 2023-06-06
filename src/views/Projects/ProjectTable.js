@@ -36,6 +36,7 @@ const ProjectTable = () => {
       //Expand bool
       expand: false,
       git: "https://github.com/porterclev/Discord-Bot",
+      demo: "https://youtu.be/RBvTxvsq3uo",
     },
     {
       Icon: Bot,
