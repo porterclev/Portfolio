@@ -36,8 +36,9 @@ const ProjectTable = () => {
       //Expand bool
       expand: false,
       git: "https://github.com/porterclev/Discord-Bot",
+      demo: "https://youtu.be/RBvTxvsq3uo",
     },
-    /* {
+    {
       Icon: Bot,
       Prod: "Discord Game",
       ShortD: (
@@ -50,7 +51,7 @@ const ProjectTable = () => {
       id: 2,
       expand: false,
       git: "https://github.com/porterclev/Discord-Bot-Webpage",
-    }, */
+    },
   ]);
 
   const [collegeProjects, setCollegeProjects] = useState([
@@ -78,6 +79,7 @@ const ProjectTable = () => {
       id: 5,
       expand: false,
       git: "https://github.com/porterclev/DnDGame",
+      demo: "https://www.youtube.com/watch?v=jDAHkZrj-9k",
     },
     {
       Icon: threexplus1,
@@ -99,6 +101,7 @@ const ProjectTable = () => {
       id: 6,
       expand: false,
       git: "https://github.com/porterclev/BigInt-3x-plus-1",
+      demo: "https://youtu.be/sUYAR0F05D8",
     },
   ]);
 
