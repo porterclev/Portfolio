@@ -6,6 +6,7 @@ import DnD from "./assets/DnD.jpg";
 import threexplus1 from "./assets/3xplus1.jpg";
 import Hack1 from "./assets/Hack1.png";
 import bh from "./assets/beachhack.png";
+import game from "./assets/game.png";
 const ProjectTable = () => {
   //Defined Project Table
   const [personalProjects, setPersonalProjects] = useState([
@@ -39,18 +40,27 @@ const ProjectTable = () => {
       demo: "https://youtu.be/RBvTxvsq3uo",
     },
     {
-      Icon: Bot,
+      Icon: game,
       Prod: "Discord Game",
       ShortD: (
         <>
           Multiplayer Isometric Game that connects users from discord into a
-          shared world with loot, combat, and PVE gameplay.
+          shared world with loot, combat, and PVE gameplay. The game is made
+          hosted on a website made with <b>Laravel</b>, <b>PHP</b>, <b>MySQL</b>
+          , <b>React.js</b>, and <b>Unity</b>.
         </>
       ),
-      LongD: <>Long</>,
+      LongD: (
+        <>
+          The current form of the game is only a dungeons and dragons dice
+          movement system. The player rolls three die and gets to move within
+          the returned number range.{" "}
+        </>
+      ),
       id: 2,
       expand: false,
       git: "https://github.com/porterclev/Discord-Bot-Webpage",
+      demo: "https://youtu.be/562AznwK8Wc",
     },
   ]);
 
