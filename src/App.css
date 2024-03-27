@@ -39,7 +39,8 @@
 
 .app-content{
   display: grid;
+  justify-content: center;
   margin: 0px 0px 0px 0px;
-  padding: 5rem 20rem 5rem 20rem;
+  padding: 5rem 5rem 5rem 5rem;
   background-color: #cee3ff;
 }

@@ -67,6 +67,24 @@ const ProjectTable = () => {
   const [collegeProjects, setCollegeProjects] = useState([
     {
       Icon: DnD,
+      Prod: "University Enrollment System",
+      ShortD: (
+        <>
+
+        </>
+      ),
+      LongD: (
+        <>
+
+        </>
+      ),
+      id: 5,
+      expand: false,
+      git: "https://github.com/porterclev/Student-Enrollment-System",
+      demo: "",
+    },
+    {
+      Icon: DnD,
       Prod: "Dungeons and Dragons RPG Game",
       ShortD: (
         <>
@@ -86,7 +104,7 @@ const ProjectTable = () => {
           <br />
         </>
       ),
-      id: 5,
+      id: 6,
       expand: false,
       git: "https://github.com/porterclev/DnDGame",
       demo: "https://www.youtube.com/watch?v=jDAHkZrj-9k",
@@ -108,7 +126,29 @@ const ProjectTable = () => {
           get around overflow and implemented in a <b>linux</b> system.
         </>
       ),
-      id: 6,
+      id: 7,
+      expand: false,
+      git: "https://github.com/porterclev/BigInt-3x-plus-1",
+      demo: "https://youtu.be/sUYAR0F05D8",
+    },
+    {
+      Icon: threexplus1,
+      Prod: "BigInt 3x + 1 Recursive Calculator",
+      ShortD: (
+        <>
+          The final project in my Systems Programming course was to create a
+          recurisive calculator to show all the steps of any number in the 3x +
+          1 sequence.
+          <br />
+        </>
+      ),
+      LongD: (
+        <>
+          The calculator was made using <b>C++</b> and a custom BigInt class to
+          get around overflow and implemented in a <b>linux</b> system.
+        </>
+      ),
+      id: 8,
       expand: false,
       git: "https://github.com/porterclev/BigInt-3x-plus-1",
       demo: "https://youtu.be/sUYAR0F05D8",
@@ -135,7 +175,7 @@ const ProjectTable = () => {
           FAQ portion or the website.
         </>
       ),
-      id: 7,
+      id: 9,
       expand: false,
       git: "https://github.com/BeachHacks/BeachHacks-Website-2023",
       demo: "https://beachhacks.com/",
@@ -159,7 +199,7 @@ const ProjectTable = () => {
           system, gym browser, and health statistics page.
         </>
       ),
-      id: 8,
+      id: 10,
       expand: false,
       git: "https://github.com/c00lme/Nuclei",
     },
