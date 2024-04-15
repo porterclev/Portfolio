@@ -7,6 +7,8 @@ import threexplus1 from "./assets/3xplus1.jpg";
 import Hack1 from "./assets/Hack1.png";
 import bh from "./assets/beachhack.png";
 import game from "./assets/game.png";
+import db from "./assets/database.png";
+import sync from "./assets/synch.png";
 const ProjectTable = () => {
   //Defined Project Table
   const [personalProjects, setPersonalProjects] = useState([
@@ -66,21 +68,44 @@ const ProjectTable = () => {
 
   const [collegeProjects, setCollegeProjects] = useState([
     {
-      Icon: DnD,
+      Icon: db,
       Prod: "University Enrollment System",
       ShortD: (
         <>
-
+          A fully functional student enrollment system for a university. This was made using
+          a <b>PostgreSQL</b> database and <b>Python</b> frontend/backend console system.
         </>
       ),
       LongD: (
         <>
-
+          The system allows for students to  be assigned a major and department. They are able to enroll in
+          courses in that department along with a one section per course. The system logs whether the student chose
+          a pass/fail or letter grading system. Not only does the system log student information, but faculty information as well.
+          Professors are assigned to a course along with an office and department.
         </>
       ),
       id: 5,
       expand: false,
       git: "https://github.com/porterclev/Student-Enrollment-System",
+      demo: "",
+    },
+    {
+      Icon: sync,
+      Prod: "Process Syncronization Demo",
+      ShortD: (
+        <>
+          Five assignments that were worked on throughout my journey through Operating Systems. These
+          assignments were primarly made using <b>C</b>, <b>C++</b>, and <b>Linux</b>.
+        </>
+      ),
+      LongD: (
+        <>
+          These assignments are meant to demonstrate parent and child synchronization techniques to prevent deadlocks and race conditons.
+        </>
+      ),
+      id: 6,
+      expand: false,
+      git: "https://github.com/porterclev/Master-Slave",
       demo: "",
     },
     {
@@ -104,32 +129,10 @@ const ProjectTable = () => {
           <br />
         </>
       ),
-      id: 6,
+      id: 7,
       expand: false,
       git: "https://github.com/porterclev/DnDGame",
       demo: "https://www.youtube.com/watch?v=jDAHkZrj-9k",
-    },
-    {
-      Icon: threexplus1,
-      Prod: "BigInt 3x + 1 Recursive Calculator",
-      ShortD: (
-        <>
-          The final project in my Systems Programming course was to create a
-          recurisive calculator to show all the steps of any number in the 3x +
-          1 sequence.
-          <br />
-        </>
-      ),
-      LongD: (
-        <>
-          The calculator was made using <b>C++</b> and a custom BigInt class to
-          get around overflow and implemented in a <b>linux</b> system.
-        </>
-      ),
-      id: 7,
-      expand: false,
-      git: "https://github.com/porterclev/BigInt-3x-plus-1",
-      demo: "https://youtu.be/sUYAR0F05D8",
     },
     {
       Icon: threexplus1,
@@ -153,6 +156,24 @@ const ProjectTable = () => {
       git: "https://github.com/porterclev/BigInt-3x-plus-1",
       demo: "https://youtu.be/sUYAR0F05D8",
     },
+    // {
+    //   Icon: threexplus1,
+    //   Prod: "Bookstore/Calculator Application",
+    //   ShortD: (
+    //     <>
+
+    //     </>
+    //   ),
+    //   LongD: (
+    //     <>
+
+    //     </>
+    //   ),
+    //   id: 9,
+    //   expand: false,
+    //   git: "",
+    //   demo: "",
+    // },
   ]);
 
   const [competitionProjects, setCompetitionProjects] = useState([
@@ -175,7 +196,7 @@ const ProjectTable = () => {
           FAQ portion or the website.
         </>
       ),
-      id: 9,
+      id: 10,
       expand: false,
       git: "https://github.com/BeachHacks/BeachHacks-Website-2023",
       demo: "https://beachhacks.com/",
@@ -199,7 +220,7 @@ const ProjectTable = () => {
           system, gym browser, and health statistics page.
         </>
       ),
-      id: 10,
+      id: 11,
       expand: false,
       git: "https://github.com/c00lme/Nuclei",
     },
